@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connected - Pixelnet</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: url('./pixelnet-background.jpg') no-repeat center center fixed;
+            background-size: cover;
+            font-family: Arial, sans-serif;
+        }
+        .success-card {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            padding: 20px 40px;
+            border-radius: 10px;
+            text-align: center;
+            color: #fff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .success-card h1 {
+            margin: 0;
+            font-size: 1.8rem;
+            font-weight: bold;
+        }
+        .success-card p {
+            margin: 10px 0 0;
+            font-size: 1.1rem;
+            color: rgba(255, 255, 255, 0.9);
+        }
+    </style>
+    <script>
+        // Auto-close after 3 seconds and redirect to original destination
+        setTimeout(() => {
+            window.location.href = '$(link-orig)';
+            window.close(); // Attempt to close the popup (works if opened as popup)
+        }, 30000);
+    </script>
+</head>
+<body>
+    <div class="success-card">
+        <h1>Connected Successfully!</h1>
+        <p>Thank you for choosing Pixelnet Wi-Fi.</p>
+    </div>
+</body>
+</html>

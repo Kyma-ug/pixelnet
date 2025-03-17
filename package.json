@@ -1,0 +1,16 @@
+{
+    "name": "pixelnet",
+    "version": "1.0.0",
+    "scripts": {
+      "start": "node api/trial.js", 
+      "dev": "vercel dev"
+    },
+    "dependencies": {
+      "mongodb": "^6.0.0",
+      "mikronode": "^3.0.0",
+      "axios": "^1.6.0"
+    },
+    "devDependencies": {
+      "vercel": "^32.0.0" 
+    }
+  }

@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixelnet Hotspot Login</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="logo-container">
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                viewBox="0 0 135.8 50.6" style="enable-background:new 0 0 135.8 50.6;" xml:space="preserve">
+                
+                <style type="text/css">
+                    .st0{fill: #007FFF;}
+                    .st1{fill:#008000;}
+                    .st2{fill:#ffffff;}
+                </style>
+                <g id="pixelnet-logo">
+                    <g id="pixelnet-text">
+                        <g id="pixelnet-text-raw">
+                            <path class="st0" d="M24.1,12.3L23.4,15c-1.1,4.2-4.8,7.1-9,7.3H9.7l-1.1,4.9H1.2l0.7-3c0.7-2.6,3-4.5,5.6-4.6h4.4c1.8-0.1,3.2-1.4,3.7-3l1.4-5.8c0.4-1.2-0.3-2.5-1.5-2.9c-0.3-0.1-0.5-0.1-0.8-0.1h-1.6l-2,8.3H3.9L6.5,5h12.1C22.6,5,25,8.4,24.1,12.3z"/>
+                            <polygon class="st0" points="29.5,27.2 24.9,27.2 28.5,12.6 33.1,12.6"/>
+                            <path class="st0" d="M49.6,27.2h-5.4l-2.5-5.4l-5.2,5.4h-5.4l7.1-7.3l-3.4-7.3h5.4l2.6,5.3l5.2-5.4h5.4l-7.1,7.3L49.6,27.2z"/>
+                            <path class="st0" d="M54.9,27.2c-0.5,0-1.1-0.1-1.7-0.4c-0.4-0.2-0.8-0.5-1.1-0.9c-0.3-0.4-0.5-0.8-0.6-1.4c-0.1-0.5-0.1-1.1,0-1.7l1.5-5.8c0.2-0.6,0.4-1.2,0.8-1.8c0.3-0.5,0.7-0.9,1.2-1.4s1-0.7,1.6-0.9c0.6-0.2,1.2-0.3,1.9-0.3h8c0.5,0,1.1,0.1,1.7,0.3c0.4,0.2,0.8,0.5,1.1,0.9c0.3,0.4,0.5,0.8,0.6,1.4c0.1,0.5,0.1,1.1,0,1.8l-1,3.9H56.7l-0.6,2.3h7.5l0.3-1.1h4.6l-0.2,0.7c-0.3,1.2-1,2.3-2.1,3c-0.5,0.4-1,0.7-1.6,0.9c-0.6,0.2-1.2,0.3-1.8,0.4H54.9z M64.9,18.1l0.4-1.7h-7.6l-0.4,1.7H64.9z"/>
+                            <path class="st0" d="M75,27.2h-5l5.5-21.8h5L75,27.2z"/>
+                            <path class="st1" d="M99.7,27.2h-5.6l-8-13l-3.3,13h-5.9l5.5-22h5.8l7.9,12.7L99.3,5h5.9L99.7,27.2z"/>
+                            <path class="st1" d="M107.1,27.2c-0.5,0-1.1-0.1-1.7-0.4c-0.4-0.2-0.8-0.5-1.1-0.9c-0.3-0.4-0.5-0.8-0.6-1.4c-0.1-0.5-0.1-1.1,0-1.7l1.5-5.8c0.3-1.2,1-2.3,2.1-3.1c0.5-0.4,1-0.7,1.6-0.9c0.6-0.2,1.2-0.3,1.9-0.3h7.9c0.5,0,1.1,0.1,1.7,0.3c0.4,0.2,0.8,0.5,1.1,0.9c0.3,0.4,0.5,0.8,0.6,1.4c0.1,0.6,0.1,1.1-0.1,1.8l-1,3.9h-12.1l-0.5,2.4h7.5l0.3-1.1h4.6l-0.2,0.7c-0.3,1.2-1,2.3-2.1,3c-0.5,0.4-1,0.7-1.6,0.9c-0.6,0.2-1.2,0.3-1.9,0.4L107.1,27.2z M117,18.1l0.4-1.7h-7.6l-0.4,1.7H117z"/>
+                            <path class="st1" d="M132.1,27.2H126c-0.5,0-1.1-0.1-1.7-0.3c-0.4-0.2-0.8-0.5-1.1-0.9c-0.3-0.4-0.5-0.8-0.6-1.4c-0.1-0.5-0.1-1.1,0-1.7l3.5-14h4.6l-0.8,3.7h4.8l-0.9,3.7h-4.8l-1.7,6.5h5.8L132.1,27.2z"/>
+                        </g>
+                        <g id="wifi-bars">
+                            <path id="bar-top" class="st1" d="M36.3,8.8c-0.2,0-0.4-0.1-0.5-0.2c-2.7-2.8-7.3-2.8-10.1-0.1l-0.1,0.1C25.4,8.9,25,9,24.7,8.8l0,0c-0.3-0.2-0.3-0.6-0.1-0.9c3.2-3.3,8.5-3.4,11.8-0.3c0.1,0.1,0.2,0.2,0.3,0.3c0.2,0.3,0.2,0.7-0.1,0.9C36.6,8.8,36.4,8.9,36.3,8.8L36.3,8.8z"/>
+                            <path id="bar-mid" class="st1" d="M34.9,10.5c-0.2,0-0.4-0.1-0.5-0.2c-2-2-5.2-2-7.2,0l0,0c-0.2,0.2-0.6,0.2-0.9,0C26,10.1,26,9.8,26.1,9.5c2.4-2.5,6.4-2.6,8.9-0.2c0.1,0.1,0.1,0.1,0.2,0.2c0.2,0.3,0.2,0.7-0.1,0.9C35.2,10.4,35,10.5,34.9,10.5L34.9,10.5z"/>
+                            <path id="bar-down" class="st1" d="M33.1,12.2c-0.2,0-0.4-0.1-0.5-0.2c-0.9-1-2.5-1-3.5-0.1L28.8,12c-0.2,0.3-0.6,0.3-0.9,0.1c-0.3-0.2-0.3-0.6-0.1-0.8l0,0c1.4-1.6,3.7-1.8,5.3-0.4l0,0c0.1,0.1,0.3,0.3,0.4,0.4c0.2,0.3,0.1,0.7-0.1,0.9C33.4,12.2,33.3,12.2,33.1,12.2z"/>
+                        </g>
+                    </g>
+                    <g id="unlimited-text">
+                        <path class="st2" d="M14.7,45.5c-1,0.1-2-0.3-2.7-0.9c-0.7-0.7-1-1.8-0.9-2.8v-4.6h1.9v4.5c0,0.6,0.1,1.1,0.5,1.7c0.3,0.3,0.8,0.5,1.4,0.5c0.5,0,0.9-0.2,1.4-0.5c0.3-0.5,0.5-1,0.4-1.7v-4.5h1.9v4.6c0.1,1-0.3,2-0.9,2.8C16.7,45.3,15.6,45.7,14.7,45.5z"/>
+                        <path class="st2" d="M21.4,45.4v-8.1h1.6l4.8,5.8H27v-5.8h1.9v8.1h-1.6l-4.9-5.8h0.7v5.8H21.4z"/>
+                        <path class="st2" d="M31.8,45.4v-8.1h1.9v6.5h4.1v1.6H31.8z"/>
+                        <path class="st2" d="M40,45.4v-8.1h1.9v8.1H40z"/>
+                        <path class="st2" d="M44.9,45.4v-8.1h1.6l3.4,5.7h-0.8l3.3-5.7H54v8.1h-1.8V40h0.3l-2.7,4.6H49L46.2,40h0.3v5.4H44.9z"/>
+                        <path class="st2" d="M57.1,45.4v-8.1H59v8.1H57.1z"/>
+                        <path class="st2" d="M63.7,45.4v-6.5h-2.5v-1.6h7.1v1.6h-2.6v6.5H63.7z"/>
+                        <path class="st2" d="M72.2,44h4.4v1.6h-6.2v-8.1h6.1v1.5h-4.3V44z M72.1,40.7H76v1.5h-3.9V40.7z"/>
+                        <path class="st2" d="M79.2,45.4v-8.1h3.6c0.8,0,1.6,0.2,2.3,0.5c0.6,0.3,1.1,0.8,1.6,1.4c0.7,1.4,0.7,2.9,0,4.3c-0.4,0.6-0.9,1.1-1.6,1.4c-0.7,0.3-1.6,0.5-2.3,0.5h-3.6V45.4z M81.1,43.9h1.7c0.5,0,0.9-0.1,1.4-0.3c0.4-0.2,0.7-0.5,0.9-0.8c0.4-0.8,0.4-1.9,0-2.7c-0.2-0.4-0.5-0.7-0.9-0.8c-0.4-0.2-0.9-0.3-1.4-0.3h-1.7V43.9z"/>
+                        <path class="st2" d="M96.3,45.4l-2.7-8.1h2l2.3,7.2h-0.9l2.4-7.2h1.8l2.3,7.2h-0.9l2.4-7.2h1.8l-2.7,8.1h-2l-2.1-6.2h0.5l-2.1,6.2H96.3z"/>
+                        <path class="st0" d="M109.7,38.4c-0.3,0-0.6-0.1-0.8-0.3c-0.2-0.2-0.3-0.4-0.3-0.7c0-0.3,0.1-0.5,0.3-0.7c0.5-0.4,1.1-0.4,1.7,0c0.2,0.2,0.3,0.4,0.3,0.7c0,0.3-0.1,0.5-0.3,0.7C110.3,38.3,110,38.4,109.7,38.4z"/>
+                        <rect x="108.7" y="39.2" class="st2" width="1.8" height="6.2"/>
+                        <path class="st2" d="M115.4,45.4h-1.9v-8.1h6.1v1.5h-4.3V45.4z M115.3,41h3.8v1.5h-3.8V41z"/>
+                        <path class="st1" d="M122.9,38.4c-0.3,0-0.6-0.1-0.8-0.3c-0.2-0.2-0.3-0.4-0.3-0.7c0-0.3,0.1-0.5,0.3-0.7c0.2-0.2,0.5-0.3,0.8-0.3c0.3,0,0.6,0.1,0.8,0.3c0.2,0.2,0.3,0.4,0.3,0.7c0,0.3-0.1,0.5-0.3,0.7C123.4,38.3,123.2,38.4,122.9,38.4z"/>
+                        <rect x="121.9" y="39.2" class="st2" width="1.8" height="6.2"/>
+                    </g>
+                </g>
+            </svg>
+        </div>
+
+        <div class="banner">
+            <span class="banner-text">Try Pixelnet for <br/><span id="free-text">Free</span>.</span>
+            <button class="try-button">Get Started</button>
+        </div>
+
+        <div class="trial-form" id="trial-form" style="display: none;">
+            <h2>Start Your Free Trial</h2>
+            <p class="form-instruction">Please fill in your details<br/>(one trial per device per month)</p>
+            <div class="input-wrapper">
+                <input type="text" id="trial-name" placeholder="Name" required>
+            </div>
+            <div class="input-wrapper">
+                <input type="email" id="trial-email" placeholder="Email Address" required>
+            </div>
+            <div class="phone-input-wrapper">
+                <svg class="phone-icon" viewBox="0 0 24 24" width="20" height="20">
+                    <path fill="#fff" d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.12.35.03.74-.24 1.02l-2.2 2.2z"/>
+                </svg>
+                <input type="tel" id="trial-phone" placeholder="Phone Number" required>
+            </div>
+            <p class="error-message" id="trial-error" style="display: none;"></p>
+            <button class="submit-trial-button">Submit & Connect</button>
+        </div>
+
+        <div class="buy-text">Click to buy with mobile money</div>
+
+        <div class="checkbox-container">
+            <label class="checkbox-option">
+                <input type="radio" name="payment" value="option1">
+                <img src="./img/airtel-logo.svg" alt="Airtel" class="mobile-money-icon-top">
+            </label>
+            <label class="checkbox-option">
+                <input type="radio" name="payment" value="option2">
+                <img src="./img/momo-logo.svg" alt="MTN MoMo" class="mobile-money-icon-top">
+            </label>
+        </div>
+
+        <div class="package-container">
+            <div class="package-content">
+                <div class="package-image">
+                    <img src="./img/pixel-package-1.png" alt="12 Hours Package">
+                </div>
+                <div class="package-details">
+                    <h2 class="package-title">Daily</h2>
+                    <p class="package-price">UGX 1,000</p>
+                    <p class="package-duration">12 Hours Access</p>
+                    <button class="buy-package-button" data-package="12hr" data-price="1000">Click to Buy</button>
+                </div>
+            </div>
+            <div class="purchase-form" id="form-12hr" style="display: none;">
+                <div class="payment-method-selector">
+                    <label class="payment-option">
+                        <input type="radio" name="payment-12hr" value="airtel" checked>
+                        <img src="./img/airtel-logo.svg" alt="Airtel Money" class="mobile-money-icon">
+                        <!-- <span>Airtel Money</span> -->
+                    </label>
+                    <label class="payment-option">
+                        <input type="radio" name="payment-12hr" value="momo">
+                        <img src="./img/momo-logo.svg" alt="MTN MoMo" class="mobile-money-icon">
+                        <!-- <span>MTN MoMo</span> -->
+                    </label>
+                </div>
+                <p class="form-instruction">Enter your phone number<br/>(e.g., 0751234567)</p>
+                <div class="phone-input-wrapper">
+                    <svg class="phone-icon" viewBox="0 0 24 24" width="20" height="20">
+                        <path fill="#fff" d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.12.35.03.74-.24 1.02l-2.2 2.2z"/>
+                    </svg>
+                    <input type="tel" placeholder="Enter Phone Number" class="phone-input" id="phone-12hr">
+                </div>
+                <p class="error-message" id="error-12hr" style="display: none;"></p>
+                <button class="submit-button" data-package="12hr">Pay Now</button>
+            </div>
+        </div>
+
+        <div class="package-container">
+            <div class="package-content">
+                <div class="package-image">
+                    <img src="./img/pixel-package-2.png" alt="24 Hours Package">
+                </div>
+                <div class="package-details">
+                    <h2 class="package-title">Daily +</h2>
+                    <p class="package-price">UGX 1,500</p>
+                    <p class="package-duration">24 Hours Access</p>
+                    <button class="buy-package-button" data-package="24hr" data-price="1500">Click to Buy</button>
+                </div>
+            </div>
+            <div class="purchase-form" id="form-24hr" style="display: none;">
+                <div class="payment-method-selector">
+                    <label class="payment-option">
+                        <input type="radio" name="payment-24hr" value="airtel" checked>
+                        <img src="./img/airtel-logo.svg" alt="Airtel Money" class="mobile-money-icon">
+                        <!-- <span>Airtel Money</span> -->
+                    </label>
+                    <label class="payment-option">
+                        <input type="radio" name="payment-24hr" value="momo">
+                        <img src="./img/momo-logo.svg" alt="MTN MoMo" class="mobile-money-icon">
+                        <!-- <span>MTN MoMo</span> -->
+                    </label>
+                </div>
+                <p class="form-instruction">Enter your phone number<br/>(e.g., 0751234567)</p>
+                <div class="phone-input-wrapper">
+                    <svg class="phone-icon" viewBox="0 0 24 24" width="20" height="20">
+                        <path fill="#fff" d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.12.35.03.74-.24 1.02l-2.2 2.2z"/>
+                    </svg>
+                    <input type="tel" placeholder="Enter Phone Number" class="phone-input" id="phone-24hr">
+                </div>
+                <p class="error-message" id="error-24hr" style="display: none;"></p>
+                <button class="submit-button" data-package="24hr">Pay Now</button>
+            </div>
+        </div>
+
+        <div class="package-container">
+            <div class="package-content">
+                <div class="package-image">
+                    <img src="./img/pixel-package-3.png" alt="1 Week Package">
+                </div>
+                <div class="package-details">
+                    <h2 class="package-title">Weekly</h2>
+                    <p class="package-price">UGX 7,000</p>
+                    <p class="package-duration">7 Days Access</p>
+                    <button class="buy-package-button" data-package="week" data-price="7000">Click to Buy</button>
+                </div>
+            </div>
+            <div class="purchase-form" id="form-week" style="display: none;">
+                <div class="payment-method-selector">
+                    <label class="payment-option">
+                        <input type="radio" name="payment-week" value="airtel" checked>
+                        <img src="./img/airtel-logo.svg" alt="Airtel Money" class="mobile-money-icon">
+                        <!-- <span>Airtel Money</span> -->
+                    </label>
+                    <label class="payment-option">
+                        <input type="radio" name="payment-week" value="momo">
+                        <img src="./img/momo-logo.svg" alt="MTN MoMo" class="mobile-money-icon">
+                        <!-- <span>MTN MoMo</span> -->
+                    </label>
+                </div>
+                <p class="form-instruction">Enter your phone number<br />(e.g., 0751234567)</p>
+                <div class="phone-input-wrapper">
+                    <svg class="phone-icon" viewBox="0 0 24 24" width="20" height="20">
+                        <path fill="#fff" d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.12.35.03.74-.24 1.02l-2.2 2.2z"/>
+                    </svg>
+                    <input type="tel" placeholder="Enter Phone Number" class="phone-input" id="phone-week">
+                </div>
+                <p class="error-message" id="error-week" style="display: none;"></p>
+                <button class="submit-button" data-package="week">Pay Now</button>
+            </div>
+        </div>
+
+        <div class="package-container">
+            <div class="package-content">
+                <div class="package-image">
+                    <img src="./img/pixel-package-4.png" alt="1 Month Package">
+                </div>
+                <div class="package-details">
+                    <h2 class="package-title">Monthly</h2>
+                    <p class="package-price">UGX 25,000</p>
+                    <p class="package-duration">30 Days Access</p>
+                    <button class="buy-package-button" data-package="month" data-price="25000">Click to Buy</button>
+                </div>
+            </div>
+            <div class="purchase-form" id="form-month" style="display: none;">
+                <div class="payment-method-selector">
+                    <label class="payment-option">
+                        <input type="radio" name="payment-month" value="airtel" checked>
+                        <img src="./img/airtel-logo.svg" alt="Airtel Money" class="mobile-money-icon">
+                        <!-- <span>Airtel Money</span> -->
+                    </label>
+                    <label class="payment-option">
+                        <input type="radio" name="payment-month" value="momo">
+                        <img src="./img/momo-logo.svg" alt="MTN MoMo" class="mobile-money-icon">
+                        <!-- <span>MTN MoMo</span> -->
+                    </label>
+                </div>
+                <p class="form-instruction">Enter your phone number<br />(e.g., 0751234567)</p>
+                <div class="phone-input-wrapper">
+                    <svg class="phone-icon" viewBox="0 0 24 24" width="20" height="20">
+                        <path fill="#fff" d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.12.35.03.74-.24 1.02l-2.2 2.2z"/>
+                    </svg>
+                    <input type="tel" placeholder="Enter Phone Number" class="phone-input" id="phone-month">
+                </div>
+                <p class="error-message" id="error-month" style="display: none;"></p>
+                <button class="submit-button" data-package="month">Pay Now</button>
+            </div>
+        </div>
+
+        <div id="payment-status" style="display: none; color: #fff; text-align: center; margin-top: 10px;">
+            <p>Awaiting PIN entry on your phone...</p>
+        </div>
+
+       
+        <p class="pre-paid-title">Use Pre-paid Voucher instead.</p>
+        
+        <!-- <form name="mikrotik-login" action="$(link-login-only)" method="post" class="voucher-container">
+            <div class="voucher-input-wrapper">
+                <svg class="key-icon" viewBox="0 0 24 24" width="20" height="20">
+                    <path fill="#fff" d="M21 10h-8.35A5.99 5.99 0 0 0 7 6c-3.31 0-6 2.69-6 6s2.69 6 6 6c1.66 0 3.14-.69 4.22-1.78l6.06 6.06 1.41-1.41-6.06-6.06A5.97 5.97 0 0 0 13 12h8v-2zm-14 6c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4z"/>
+                </svg>
+                <input type="text" name="username" placeholder="Enter Pre-paid Voucher" class="voucher-input" value="$(username)">
+            </div>
+            <input type="hidden" name="dst" value="$(link-orig)">
+            <input type="hidden" name="popup" value="true">
+            <button type="submit" class="voucher-button">Use Pre-Paid Code</button>
+        </form> -->
+
+        <form name="mikrotik-login" action="$(link-login-only)" method="post" class="voucher-container">
+            <div class="voucher-input-wrapper">
+                <svg class="key-icon" viewBox="0 0 24 24" width="20" height="20">
+                    <path fill="#fff" d="M21 10h-8.35A5.99 5.99 0 0 0 7 6c-3.31 0-6 2.69-6 6s2.69 6 6 6c1.66 0 3.14-.69 4.22-1.78l6.06 6.06 1.41-1.41-6.06-6.06A5.97 5.97 0 0 0 13 12h8v-2zm-14 6c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4z"/>
+                </svg>
+                <input type="text" name="username" placeholder="Enter Pre-paid Voucher" class="voucher-input" value="$(username)">
+            </div>
+            <input type="hidden" name="dst" value="$(link-orig)">
+            <input type="hidden" name="popup" value="true">
+            <p class="error-message" id="voucher-error" $(if error) style="display: block;">Invalid code: $(error)$(else) style="display: none;"$(endif)></p>
+            <button type="submit" class="voucher-button">Use Pre-Paid Code</button>
+        </form>
+
+
+        <footer>
+            <div class="location-call-icons">
+                <div class="location">
+                    <img src="./img/location.svg" alt="Location Icon" class="location-icon">
+                    <span>Shop A10 Kakalina, Mafubira</span>
+                </div>
+                <div class="call-pixel">
+                    <img src="./img/whatsapp.svg" alt="Call Pixelnet" class="call-pixel-icon">
+                    <span>+256 784 005 122</span>
+                </div>
+            </div>
+            <div class="social-icons-box">
+                <div class="social-icons">
+                    <img src="./img/tiktok.svg" alt="TikTok Icon" class="social-icon">
+                    <img src="./img/insta.svg" alt="Instagram Icon" class="social-icon">
+                    <img src="./img/facebook.svg" alt="Facebook Icon" class="social-icon">
+                </div>
+                <p class="footer-social-pixelnet">Pixelnet</p>
+            </div>
+            <p>Configured by:</p>
+            <img src="./img/moxar-logo.svg" alt="Moxar Logo" id="moxar-logo">
+            <hr id="horizontal-footer-line">
+            <div class="footer-copyright">
+                <p>© Pixelnet 2025</p>
+                <p>Terms and Conditions apply.</p>
+            </div>
+        </footer>
+
+
+
+
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
