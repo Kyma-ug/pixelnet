@@ -37,7 +37,7 @@ document.querySelector('.submit-trial-button').addEventListener('click', async (
     document.getElementById('payment-status').innerHTML = 'Processing your 20-minute trial...';
 
     try {
-        const response = await fetch('https://your-vercel-app.vercel.app/api/trial', {
+        const response = await fetch('https://pixelnet.vercel.app/api/trial', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ name, email, phone, macAddress }),
@@ -134,7 +134,7 @@ document.querySelectorAll('.submit-button').forEach(button => {
         document.getElementById('payment-status').innerHTML = 'Awaiting PIN entry on your phone...';
 
         try {
-            const response = await fetch('https://your-vercel-app.vercel.app/api/payment', {
+            const response = await fetch('https://pixelnet.vercel.app/api/payment', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({
@@ -164,7 +164,7 @@ document.querySelectorAll('.submit-button').forEach(button => {
 async function checkPaymentStatus(orderTrackingId, packageId, paymentMethod, button) {
     const interval = setInterval(async () => {
         try {
-            const response = await fetch(`https://your-vercel-app.vercel.app/api/payment?check_status=${orderTrackingId}&package=${packageId}&payment_method=${paymentMethod}`);
+            const response = await fetch(`https://pixelnet.vercel.app/api/payment?check_status=${orderTrackingId}&package=${packageId}&payment_method=${paymentMethod}`);
             const status = await response.json();
 
             if (status.status === 'COMPLETED') {
