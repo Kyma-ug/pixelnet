@@ -4,7 +4,8 @@ const MikroNode = require('mikronode');
 // Pesapal credentials
 const PESAPAL_CONSUMER_KEY = process.env.PESAPAL_CONSUMER_KEY || 'YOUR_CONSUMER_KEY';
 const PESAPAL_CONSUMER_SECRET = process.env.PESAPAL_CONSUMER_SECRET || 'YOUR_CONSUMER_SECRET';
-const PESAPAL_API_URL = 'https://cybqa.pesapal.com/pesapalv3'; // Sandbox; use 'https://pay.pesapal.com/v3' for live
+const PESAPAL_API_URL = 'https://pay.pesapal.com/v3'; 
+// const PESAPAL_API_URL = 'https://cybqa.pesapal.com/pesapalv3'; 
 
 // MikroTik credentials
 const MIKROTIK_IP = process.env.MIKROTIK_IP || 'YOUR_MIKROTIK_IP';
