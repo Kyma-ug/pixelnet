@@ -251,6 +251,7 @@ body {
 
 .submit-trial-button {
     padding: 10px 20px;
+    width: 100%;
     background: #2ea137;
     border: none;
     border-radius: 5px;
