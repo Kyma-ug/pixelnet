@@ -1,8 +1,14 @@
 {
-    "version": 2,
-    "routes": [
-      { "src": "/api/(.*)", "dest": "/api" },
-      { "src": "/hotspot/(.*)", "dest": "/hotspot/$1" },
-      { "src": "/(.*)", "dest": "/hotspot/login.html" }
-    ]
+  "version": 2,
+  "routes": [
+    { "src": "/api/(.*)", "dest": "/api/$1" },
+    { "src": "/hotspot/(.*)", "dest": "/hotspot/$1" },
+    { "src": "/(.*)", "dest": "/hotspot/login.html" }
+  ],
+  "functions": {
+    "api/*.js": {
+      "memory": 1024,
+      "maxDuration": 10
+    }
   }
+}
