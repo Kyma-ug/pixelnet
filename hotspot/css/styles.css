@@ -16,7 +16,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Montserrat Alternates', sans-serif;
+    /* font-family: 'Montserrat Alternates', sans-serif; */
+    font-family: 'Montserrat Alternates';
 }
 
 body {
@@ -326,9 +327,6 @@ body {
     display: none;
 }
 
-.checkbox-option input[type="radio"]:checked + .mobile-money-icon {
-    /* border: 2px solid #ccc; */
-}
 
 .mobile-money-icon-top {
     width: 100%;
