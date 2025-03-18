@@ -2,15 +2,15 @@
     "name": "pixelnet",
     "version": "1.0.0",
     "scripts": {
-      "start": "node api/trial.js", 
-      "dev": "vercel dev"
+        "start": "node api/payment.js",
+        "dev": "vercel dev"
     },
     "dependencies": {
-      "mongodb": "^6.0.0",
-      "mikronode": "^3.0.0",
-      "axios": "^1.6.0"
+        "axios": "^1.8.3",
+        "mikronode": "^2.3.11",
+        "mongodb": "^6.14.2"
     },
     "devDependencies": {
-      "vercel": "^32.0.0" 
+        "vercel": "^41.4.1"
     }
-  }
+}

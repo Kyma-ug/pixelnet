@@ -1,13 +1,13 @@
 const { MongoClient } = require('mongodb');
 const MikroNode = require('mikronode');
 
-const uri = process.env.MONGODB_URI || 'mongodb+srv://<username>:<password>@cluster0.mongodb.net/pixelnet';
+const uri = process.env.MONGODB_URI || 'mongodb+srv://markyokuhaire18:vmYZlKOmdjefQBqR@pixeltrial0.6cdgc.mongodb.net/?retryWrites=true&w=majority&appName=pixeltrial0';
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
 
 // MikroTik credentials
 const MIKROTIK_IP = process.env.MIKROTIK_IP || 'YOUR_MIKROTIK_IP';
 const MIKROTIK_USERNAME = process.env.MIKROTIK_USERNAME || 'admin';
-const MIKROTIK_PASSWORD = process.env.MIKROTIK_PASSWORD || 'YOUR_PASSWORD';
+const MIKROTIK_PASSWORD = process.env.MIKROTIK_PASSWORD || 'fc25';
 const MIKROTIK_PORT = process.env.MIKROTIK_PORT || 8728;
 
 async function connectToMongo() {

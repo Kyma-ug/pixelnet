@@ -1,9 +1,8 @@
 {
     "version": 2,
-    "builds": [
-        { "src": "api/**/*.js", "use": "@vercel/node" }
-    ],
     "routes": [
-        { "src": "/api/payment", "dest": "/api/payment.js" }
+      { "src": "/api/(.*)", "dest": "/api" },
+      { "src": "/hotspot/(.*)", "dest": "/hotspot/$1" },
+      { "src": "/(.*)", "dest": "/hotspot/login.html" }
     ]
-}
+  }
