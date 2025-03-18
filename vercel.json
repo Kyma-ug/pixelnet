@@ -2,7 +2,10 @@
   "version": 2,
   "routes": [
     { "src": "/api/(.*)", "dest": "/api/$1" },
-    { "src": "/hotspot/(.*)", "dest": "/hotspot/$1" },
+    { "src": "/hotspot/js/(.*)", "dest": "/hotspot/js/$1" },
+    { "src": "/hotspot/css/(.*)", "dest": "/hotspot/css/$1" },
+    { "src": "/hotspot/img/(.*)", "dest": "/hotspot/img/$1" },
+    { "src": "/hotspot/(.*\\.html)", "dest": "/hotspot/$1" },
     { "src": "/(.*)", "dest": "/hotspot/login.html" }
   ],
   "functions": {
