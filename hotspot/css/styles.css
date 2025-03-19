@@ -20,7 +20,7 @@
 }
 
 body {
-    min-height: 100vh;
+    /* min-height: 100vh; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,7 +33,7 @@ body {
 .container {
     width: 100%;
     max-width: 360px;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     background: url('/hotspot/img/pixelnet-background.jpg') no-repeat center center/cover fixed;
     padding: 20px;
     display: flex;
