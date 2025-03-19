@@ -766,7 +766,7 @@ footer {
     .container {
         max-width: 450px;
         border-radius: 10px;
-        /* min-height: auto; */
+        min-height: auto;
         margin: 20px;
     }
 
