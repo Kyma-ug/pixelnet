@@ -12,7 +12,10 @@
 
 
     <!-- <link rel="stylesheet" href="./css/styles.css"> -->
-    <link rel="stylesheet" href="/hotspot/css/styles.css">
+    <!-- <link rel="stylesheet" href="/hotspot/css/styles.css"> -->
+
+    <link rel="stylesheet" href="https://pixelnet.vercel.app/hotspot/css/styles.css">
+
 
     <style>
         body {
@@ -78,7 +81,7 @@
 
         <div class="banner">
             <span class="banner-text">Try Pixelnet for <br/><span id="free-text">Free</span>.</span>
-            <button class="try-button">Get Started</button>
+            <button class="try-button">Try Now</button>
         </div>
 
         <div class="trial-form" id="trial-form" style="display: none;">
@@ -97,7 +100,7 @@
                 <input type="tel" id="trial-phone" placeholder="Phone Number" required>
             </div>
             <p class="error-message" id="trial-error" style="display: none;"></p>
-            <button class="submit-trial-button">Submit & Connect</button>
+            <button class="submit-trial-button">Connect</button>
         </div>
 
         <div class="buy-text">Click to buy with mobile money</div>
@@ -295,7 +298,7 @@
             </div>
             <input type="hidden" name="dst" value="$(link-orig)">
             <input type="hidden" name="popup" value="true">
-            <p class="error-message" id="voucher-error" $(if error) style="display: block;">Invalid code: $(error)$(else) style="display: none;"$(endif)></p>
+            <p class="error-message" id="voucher-error" $(if error)style="display: block;">Invalid code: $(error)$(else)style="display: none;"$(endif)></p>
             <button type="submit" class="voucher-button">Use Pre-Paid Code</button>
         </form>
 
