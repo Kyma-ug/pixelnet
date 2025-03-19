@@ -490,7 +490,7 @@ body {
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 10px;
     margin: 10px auto;
-    max-width: 400px;
+    max-width: 360px;
     width: 100%;
     box-sizing: border-box;
 }
@@ -698,14 +698,9 @@ footer {
 }
 
 .mobile-money-icon {
-    /* width: 60px; */
     height: 30px;
-
     width: 100%;
-    /* max-width: 150px; */
-    /* height: 60px; */
     border-radius: 2px;
-
     object-fit: contain;
     cursor: pointer;
 }
