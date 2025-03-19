@@ -489,7 +489,7 @@ body {
     padding: 20px;
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 10px;
-    margin: 30px auto 10px auto;
+    margin: 10px auto;
     max-width: 400px;
     width: 100%;
     box-sizing: border-box;
@@ -585,7 +585,7 @@ body {
     text-align: left;
     font-weight: bold;
     font-size: 1.1rem;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 
