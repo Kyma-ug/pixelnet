@@ -27,7 +27,7 @@ body {
     background: url('/hotspot/img/pixelnet-background.jpg') no-repeat center center/cover fixed;
     background-attachment: fixed;
     backdrop-filter: blur(5px);
-    /* overflow: hidden; */
+    overflow: hidden;
     overflow-y: auto;
 }
 
@@ -43,7 +43,7 @@ body {
     align-items: center;
     justify-content: center;
     animation: fadeIn 1s ease-in;
-    /* overflow-y: auto;  */
+    overflow-y: auto; 
 }
 
 .logo-container {
