@@ -41,7 +41,7 @@ body {
     align-items: center;
     justify-content: center;
     animation: fadeIn 1s ease-in;
-    overflow-y: auto; /* Make container scrollable */
+    /* overflow-y: auto;  */
 }
 
 .logo-container {
